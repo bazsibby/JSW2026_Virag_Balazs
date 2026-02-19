@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6,
 .custom-header {
     height: 400px;
     background: linear-gradient(rgba(94, 60, 38, 0.2), rgba(0, 0, 0, 0.4)),
-        url('banner.png') center/cover no-repeat;
+        url('../Forrasfileok/forras/images/banner.png') center/cover no-repeat;
 }
 
 .custom-container {
@@ -93,10 +93,16 @@ h2.numbered::before {
 }
 
 .custom-card h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--color-darkblue);
-    font-family: Arial, sans-serif;
+    font-family: 'Rubik Distressed', Arial, sans-serif;
     font-weight: bold !important;
+    text-align: center;
+}
+
+.custom-card p {
+    text-align: left !important;
+    font-size: 0.95rem;
 }
 
 .custom-card:hover {
